@@ -1,3 +1,6 @@
 # Archivos a no incluir en el repositorio
+/tablas/*.txt
 
 # Carpetas a no incluir en el repositorio
+/Ejercicio01/node_modules
+

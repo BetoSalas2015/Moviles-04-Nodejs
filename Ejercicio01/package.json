@@ -1,0 +1,14 @@
+{
+  "name": "tablas-multiplicar",
+  "version": "1.0.3",
+  "description": "Programa que guarda en archivo las tablas de multiplicar",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Roberto Salazar Márquez",
+  "license": "ISC",
+  "dependencies": {
+    "yargs": "^15.3.1"
+  }
+}
