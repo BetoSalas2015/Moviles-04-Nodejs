@@ -9,6 +9,7 @@
   "author": "Roberto Salazar Márquez",
   "license": "ISC",
   "dependencies": {
+    "colors": "^1.4.0",
     "yargs": "^15.3.1"
   }
 }

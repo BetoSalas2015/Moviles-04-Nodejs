@@ -1,4 +1,5 @@
 const fs = require('fs');
+const colors = require('colors');
 
 crearArchivo = (base) => {
     return new Promise((resolve, reject) => {
@@ -20,6 +21,21 @@ crearArchivo = (base) => {
     });
 };
 
+imprimeTabla = (base, limite) => {
+
+    console.log('=============================='.magenta);
+    console.log(`        Tabla del ${base}`.magenta);
+
+    console.log('=============================='.magenta);
+
+
+    for (let index = 1; index <= limite; index++) {
+        console.log(`${base} * ${index} = ${base * index} `);
+    }
+}
+
+
 module.exports = {
-    crearArchivo
+    crearArchivo,
+    imprimeTabla
 }
